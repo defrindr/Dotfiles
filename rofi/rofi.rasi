@@ -1,0 +1,104 @@
+/*
+ * Defri Indra M
+ */
+
+* {
+  black:                      #242325;
+  white:                      #FFFFFF;
+  red:                        #eb6e67;
+  green:                      #95ee8f;
+  yellow:                     #f8c456;
+  blue:                       #6eaafb;
+  mangenta:                   #d886f3;
+  cyan:                       #6cdcf7;
+  blueku:                     #244590;
+  text:                       #dfdfdf;
+  text-alt:                   #ffffff;
+  fg:                         #abb2bf;
+  bg:                         #282c34;
+
+  spacing:                    0;
+  background-color:           transparent;
+  font:                       "Courier 10 Pitch 11";
+  text-color:                 @text;
+}
+
+window {
+  fullscreen:                 false;
+  background-color:           #2445AF;
+  border-radius:              10px;
+  border:                     3px solid;
+  border-color:               #FFFFFF;
+}
+
+mainbox {
+  padding:                    5%;
+}
+
+inputbar {
+  margin:                     0px 0px 20px 0px;
+  children:                   [prompt, textbox-prompt-colon, entry, case-indicator];
+}
+
+prompt {
+  text-color:                 @white;
+}
+
+textbox-prompt-colon {
+  expand:                     false;
+  str:                        "[#]";
+  text-color:                 @text-alt;
+}
+
+entry {
+  margin:                     0px 10px;
+}
+
+listview {
+  spacing:                    5px;
+  dynamic:                    true;
+  scrollbar:                  true;
+}
+
+element {
+  padding:                    5px;
+  text-color:                 @text-alt;
+  highlight:                  bold #0000FF;
+  border-radius:              3px;
+}
+
+element selected {
+  background-color:           @blueku;
+  text-color:                 @text;
+}
+
+element urgent, element selected urgent {
+  text-color:                 @red;
+}
+
+element active, element selected active {
+  text-color:                 @black;
+}
+
+message {
+  padding:                    5px;
+  border-radius:              3px;
+  background-color:           @blueku;
+  border:                     1px;
+  border-color:               transparent;
+}
+
+button selected {
+  padding:                    5px;
+  border-radius:              3px;
+  background-color:           @blueku;
+}
+
+#element {
+    background-color:         #00000000;
+    padding:                  3px;
+}
+#element selected {
+    background-color:         #FFFFFF50;
+}
+
