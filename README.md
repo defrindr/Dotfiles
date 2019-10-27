@@ -16,3 +16,4 @@
 | Rofi | [here](https://github.com/davatorium/rofi/wiki) |
 | Polybar | [here](https://github.com/polybar/polybar) |
 | i3 | [here](https://i3wm.org/docs/) |
+| Powerlevel9k | [here](https://github.com/Powerlevel9k/powerlevel9k)
